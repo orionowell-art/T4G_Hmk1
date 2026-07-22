@@ -45,3 +45,17 @@ console.log(typeof price)
 //Checking the type of string
 let crochetitem = "Bikini"
 console.log(crochetitem)
+
+//Prompting the user for their details
+let username = prompt("Enter your name:");
+let userage = Number(prompt("Enter your age:"));
+let useremail = prompt("Enter your email address:");
+
+//Checking the user's age
+if (userage < 12) {
+    alert(`Hi ${username}, you are ${userage} and you are too young to register. Sorry😔😔`)
+}else if (age >= 12 && age < 18) {
+    alert(`Hi ${username}, you are ${userage} years old and you have limited options to register for. We will keep in touch via your email: ${useremail}. 👏🏽👏🏽`);
+}else {
+    alert(`Hi ${username}, you are ${userage} years old and you can register for any option of your choosing. We will keep in touch via your email: ${useremail}. 👏🏽👏🏽`);
+}
