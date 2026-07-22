@@ -44,4 +44,4 @@ console.log(typeof price)
 
 //Checking the type of string
 let crochetitem = "Bikini"
-console.log(typeof crochetitem)
+console.log(crochetitem)
